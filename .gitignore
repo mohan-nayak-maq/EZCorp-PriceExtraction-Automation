@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+
+# Environment / secrets
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local storage (SQLite job/search history + rotating logs)
+data/
+
+# Deployment packages / project zips (can contain .env with secrets)
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db

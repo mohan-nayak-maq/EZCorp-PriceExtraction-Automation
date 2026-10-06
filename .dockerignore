@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+data/
+**/__pycache__/
+**/*.py[cod]
+.ruff_cache/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.git/
+.vscode/
+*.log
+# Packaged copies of the project (may contain .env/secrets) - never send to ACR builds
+*.zip
+*.db

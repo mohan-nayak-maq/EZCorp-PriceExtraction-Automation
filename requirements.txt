@@ -1,0 +1,14 @@
+# Pinned to the versions the tool was tested with.
+# With openai 1.59.6 the SDK has no `responses` client, so engine.py calls the
+# Responses API over REST via httpx (the tested path).
+# fastapi/starlette/python-multipart are kept on releases without known CVEs;
+# re-run `pip-audit -r requirements.txt` before each release.
+fastapi==0.142.2
+starlette==1.7.0
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+openai==1.59.6
+httpx==0.28.1
+openpyxl==3.1.5
+python-multipart==0.0.32
